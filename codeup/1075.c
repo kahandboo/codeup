@@ -2,9 +2,11 @@
 
 int main(){
     int n;
-reload:
     scanf("%d",&n);
-    if (n!=0) printf("%d\n",n);
-    if(n!=0)goto reload;
+    n--;
+    while(n!=-1){
+        printf("%d\n",n);
+        n--;
+    }
     return 0;
 }
