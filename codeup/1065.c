@@ -4,16 +4,13 @@ int main(){
     long a,b,c;
     scanf("%ld %ld %ld",&a,&b,&c);
     if (a%2 == 0){
-        printf("even\n");
+        printf("%ld\n",a);
     }
-    else printf("odd\n");
     if (b%2 == 0){
-        printf("even\n");
+        printf("%ld\n",b);
     }
-    else printf("odd\n");
     if (c%2 == 0){
-        printf("even\n");
+        printf("%ld",c);
     }
-    else printf("odd\n");
     return 0;
 }
